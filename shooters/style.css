@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #062d3f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width:80vw;
+    margin: auto;
+}
+
+#canvas{
+    background: #070404;
+    display:block;
+    border-radius:5px;
+    margin-bottom:5rem;
+}
+
+h1{
+    font-size:45px;
+    color:#fff;
+    display:block;
+    margin:auto;
+}

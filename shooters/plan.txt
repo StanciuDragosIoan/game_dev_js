@@ -1,0 +1,11 @@
+1. Create canvas context X
+2. Create and draw spaceship X
+3. Create enemy ships
+5. Draw score
+6. Add update() - Animate - requestAnimationFrame(callback)
+7. Move spaceship
+8. Keyboard event handlers to move spaceship
+9. Shoot enemy ships
+10. Enemy ships can shoot and move too
+11. Increase score when enemy shot
+12. Lose - (either redraw everything and re-set score or implement lives)
