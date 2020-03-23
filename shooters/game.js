@@ -17,8 +17,8 @@ const bullet = {
     y: canvas.height / 1.5,
     size: 6,
     speed: 4,
-    dx: 4,
-    dy: -4
+    dx: 0,
+    dy: -20
 };
 
 // spaceship bullet
@@ -54,10 +54,8 @@ function keyDown(e) {
      //start shoot
    if(e.key === ' ' || e.key === 'Spacebar'){
         console.log('start shooting..');
-   
         shootBullet();
     }
-    
 }
 
 
